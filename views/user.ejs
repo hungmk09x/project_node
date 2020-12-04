@@ -1,0 +1,332 @@
+<%- include('menu-2')%>
+<style>
+    body{
+        background-image: url("../img/gow-2.jpg");
+    }
+    .nk-badge{
+        float: right;
+        margin-top: 6px;
+        color: #fff
+        display: inline-block;
+        min-width: 15px;
+        height: 15px;
+        padding: 0 11px;
+        font-size: 10px;
+        line-height: 15px;
+        text-align: center;
+        background-color: #e08821;
+        border-radius: 7.5px;
+        margin-right: 52px;
+
+    }
+    .veritica{
+        padding-top: 30px;
+        padding-left: 0px;
+    }
+    .active-menu{
+        padding-bottom: 30px;
+        list-style-type: none;
+        text-align: initial;
+    }
+    .active-menu a{
+        color: white;
+        text-decoration: none;
+    }
+    .social-inline-menu{
+        margin-left: -501px;
+    }
+    .social-inline-menu ul>li{
+        display: inline-block;
+        padding-left: 30px;
+    }
+    .social-inline-menu ul li a{
+        color: white;
+        text-decoration: none;
+    }
+    .active-social:hover a{
+        color:  #e08821 ;
+    }
+    .abc-btn{
+        text-align: initial;
+    }
+    .img-social{
+        float: left;
+    }
+    .qewr{
+        padding-left: 170px;
+        color: white;
+        padding-top: 36px;
+    }
+    .abc{
+        color: white;
+        text-align: center;
+    }
+    .feel-icon{
+        text-align: end;
+        padding-right: 30px;
+        color: white;
+    }
+    .feel-icon a{
+        color: white;
+    }
+    .feel-icon li{
+        display: inline-block;
+    }
+    .img-social{
+        max-width: 14%;
+        display: block;
+        border-radius: 60px;
+    }
+    .button-update:hover{
+        transform: scale(1.1);
+    }
+</style>
+<body>
+<div class="full-screen">
+    <img style="display: block;max-width: 100%" class="god-of-war" src="/img/gow.jpg">
+</div>
+<div  class="container">
+    <div class="social-profile">
+        <div class="row">
+            <div class="col-md-3 col-lg-3">
+                <div class="social-avatar">
+                    <a href="#">
+                        <img style="width: 100%;height: auto;margin-top: -140px;margin-left: -288px;border-radius: 25px" src="/img/avatar-fb.jpg" alt="hùng đẹp trai"
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-7 col-lg-9">
+                <div class="social-info">
+                    <div class="nk-2">
+                        <h3 style="margin-bottom: 1rem;font-family: 'Roboto', sans-serif;font-weight: 600;color: white;margin-left: -162px">hùng đẹp trai</h3>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="row veritica">
+            <div class="col-lg-3">
+                <aside class="sidebar">
+                    <div class="chose-menu">
+                        <ul>
+                            <li class="active-menu">
+                                <a href="#">Activity</a>
+                            </li>
+                            <li class="active-menu">
+                                <a href="#">Notification</a>
+                            </li>
+                            <li class="active-menu">
+                                <a href="#">
+                                    Messenger
+                                    <span class="nk-badge">192</span>
+                                </a>
+                            </li>
+                            <li class="active-menu">
+                                <a href="#">
+                                    Friend
+                                    <span class="nk-badge">192</span>
+                                </a>
+                            </li>
+                            <li class="active-menu">
+                                <a href="#">
+                                    Groups
+                                    <span class="nk-badge">192</span>
+                                </a>
+                            </li>
+                            <li class="active-menu">
+                                <a href="#">Forum</a>
+                            </li>
+                            <li class="active-menu">
+                                <a href="#">Setting</a>
+                            </li>
+                        </ul>
+                    </div>
+                </aside>
+            </div>
+            <div class="col-lg-9">
+                <div class="social-inline-menu">
+                    <ul>
+                        <li class="active-social">
+                            <a href="#">Personal</a>
+                        </li>
+                        <li>
+                            <a href="#">Mentions</a>
+                        </li>
+                        <li>
+                            <a href="#">Favorite</a>
+                        </li>
+                        <li>
+                            <a href="#">Friends</a>
+                        </li>
+                        <li>
+                            <a href="#">Groups</a>
+                        </li>
+                    </ul>
+                </div>
+                <div style="float: right" class="chat-box-container">
+                    <form action="#" class="social-short">
+                        <label style="color: white" for="activity-filter-by">Show: </label>
+                        <select id="activity-filter-by" form="form-control valid" aria-invalid="false">
+                            <option value="-1">Everything</option>
+                            <option value="-2">Updates</option>
+                            <option value="-3">FriendShips</option>
+                            <option value="-4">New Groups</option>
+                            <option value="-5">Groups MemberShip</option>
+                            <option value="-6">Post</option>
+                            <option value="-6">Comment</option>
+                        </select>
+                    </form>
+                </div>
+                <div style="margin-top: 120px" class="chat-new">
+                    <ul class="abc-btn">
+                        <img class="img-social" src="/img/avatar-1.jpg">
+                        <li class="texera">
+                            <textarea style="margin-left: 50px;margin-top: 10px;background-color: #2b2422;height: 85px" class="box-comment" rows="9" cols="70" placeholder="What's new"></textarea>
+                        </li>
+                    </ul>
+                    <button class="button-update" style="width: 122px;border-radius: 50px;background-color: antiquewhite;margin-left: 435px" type="button">Post Update</button>
+                    <ul class="abc-btn">
+                        <img class="img-social" src="/img/avatar-1.jpg">
+                        <li class="texera">
+                            <p  class="qewr">Do Dang Hung post</p>
+                            <p class=" abc">@john out particular sympathize not favourable introduced insipidity but ham?</p>
+                            <ul class="feel-icon">
+                                <li>
+                                    <a href="#">
+                                        <i class="fas fa-heart"> 3</i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="fas fa-comments"> Comment</i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="fas fa-trash-alt"> Delete</i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="fas fa-star">Favorite</i>
+                                    </a>
+                                </li>
+                            </ul>
+                            <ul class="abc-btn">
+                                <img class="img-social"  src="/img/avatar-1.jpg">
+                                <li class="texera">
+                                    <p  class="qewr">Do Dang Hung post</p>
+                                    <p class=" abc">@john out particular sympathize not favourable introduced insipidity but ham?</p>
+                                    <ul class="feel-icon">
+                                        <li>
+                                            <a href="#">
+                                                <i class="fas fa-heart"> 3</i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <i class="fas fa-comments"> Comment</i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <i class="fas fa-trash-alt"> Delete</i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <i class="fas fa-star">Favorite</i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                    <ul class="abc-btn">
+                                        <img class="img-social" src="/img/avatar-1.jpg">
+                                        <li class="texera">
+                                            <p  class="qewr">Do Dang Hung post</p>
+                                            <p class=" abc">@john out particular sympathize not favourable introduced insipidity but ham?</p>
+                                            <ul class="feel-icon">
+                                                <li>
+                                                    <a href="#">
+                                                        <i class="fas fa-heart"> 3</i>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">
+                                                        <i class="fas fa-comments"> Comment</i>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">
+                                                        <i class="fas fa-trash-alt"> Delete</i>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">
+                                                        <i class="fas fa-star">Favorite</i>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                            <ul class="abc-btn">
+                                                <img class="img-social"  src="/img/avatar-1.jpg">
+                                                <li class="texera">
+                                                    <p  class="qewr">Do Dang Hung post</p>
+                                                    <p class=" abc">@john out particular sympathize not favourable introduced insipidity but ham?</p>
+                                                    <ul class="feel-icon">
+                                                        <li>
+                                                            <a href="#">
+                                                                <i class="fas fa-heart"> 3</i>
+                                                            </a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#">
+                                                                <i class="fas fa-comments"> Comment</i>
+                                                            </a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#">
+                                                                <i class="fas fa-trash-alt"> Delete</i>
+                                                            </a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#">
+                                                                <i class="fas fa-star">Favorite</i>
+                                                            </a>
+                                                        </li>
+                                                    </ul>
+                                                    <ul class="abc-btn">
+                                                        <img class="img-social"  src="/img/avatar-1.jpg">
+                                                        <li class="texera">
+                                                            <p  class="qewr">Do Dang Hung post</p>
+                                                            <p class=" abc">@john out particular sympathize not favourable introduced insipidity but ham?</p>
+                                                            <ul class="feel-icon">
+                                                                <li>
+                                                                    <a href="#">
+                                                                        <i class="fas fa-heart"> 3</i>
+                                                                    </a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="#">
+                                                                        <i class="fas fa-comments"> Comment</i>
+                                                                    </a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="#">
+                                                                        <i class="fas fa-trash-alt"> Delete</i>
+                                                                    </a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="#">
+                                                                        <i class="fas fa-star">Favorite</i>
+                                                                    </a>
+                                                                </li>
+                                                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<%- include('footer')%>
+</body>
+</html>

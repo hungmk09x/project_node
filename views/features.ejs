@@ -1,0 +1,113 @@
+<%-include('menu-3')%>
+<div class="main">
+    <div class="backgroud">
+        <img class="art" src="img/background.jpg">
+    </div>
+    <div class="text">
+        <h1>GodLike</h1>
+        <p>An atmospheric gaming HTML template based on Bootstrap 4</p>
+    </div>
+    <div class="click">
+        <a href="#">
+            <span>Purchase</span>
+        </a>
+    </div>
+    <div class="click-2">
+        <a href="#">
+            <span>See Demos</span>
+        </a>
+    </div>
+</div>
+<div class="desktop-picture">
+    <h2 style="text-align: center;padding-top: 70px;padding-bottom: 20px;color: white">Sign in/up Form</h2>
+    <div  class="container" id="container">
+        <div class="form-container sign-up-container">
+            <form style="background-color: #FFFFFF;" action="#">
+                <h1>Create Account</h1>
+                <div class="social-container">
+                    <a href="#" class="social"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="social"><i class="fab fa-google-plus-g"></i></a>
+                    <a href="#" class="social"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+                <span>or use your email for registration</span>
+                <input type="text" placeholder="Name" />
+                <input type="email" placeholder="Email" />
+                <input type="password" placeholder="Password" />
+                <button class="button-1">Sign Up</button>
+            </form>
+        </div>
+        <div class="form-container sign-in-container">
+            <form action="#">
+                <h1>Sign in</h1>
+                <div class="social-container">
+                    <a href="#" class="social"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="social"><i class="fab fa-google-plus-g"></i></a>
+                    <a href="#" class="social"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+                <span>or use your account</span>
+                <input type="email" placeholder="Email" />
+                <input type="password" placeholder="Password" />
+                <a href="#">Forgot your password?</a>
+                <button class="button-1">Sign In</button>
+            </form>
+        </div>
+        <div class="overlay-container">
+            <div class="overlay">
+                <div class="overlay-panel overlay-left">
+                    <h1>Welcome Back!</h1>
+                    <p>To keep connected with us please login with your personal info</p>
+                    <button class="ghost" id="signIn">Sign In</button>
+                </div>
+                <div class="overlay-panel overlay-right">
+                    <h1>Hello, Friend!</h1>
+                    <p>Enter your personal details and start journey with us</p>
+                    <button class="ghost" id="signUp">Sign Up</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="footer-end">
+    <div class="row">
+        <div class="col-sm-2">
+            <a href="#"><img src="/img/footer-logo-godlike.png"</a>
+        </div>
+        <div class="col-sm-2">
+            <a href="#"><img src="/img/footer-logo-yp3.png"</a>
+        </div>
+        <div class="col-sm-2">
+            <a href="#"><img src="/img/footer-logo-nk-team.png"</a>
+        </div>
+        <div class="col-sm-2">
+            <a href="#"><img src="/img/footer-logo-18-restricted.png"</a>
+        </div>
+        <div class="col-sm-2">
+            <a href="#"><img src="/img/footer-logo-pegi-18.png"</a>
+        </div>
+        <a style="text-decoration: none" href="#">
+            <div class="footer-text">
+                <p style="text-decoration: none">© 2020 nK Group Inc. Developed in association with LoremInc. IpsumCompany, SitAmmetGroup, CumSit and related logos are registered trademarks. GodLike and related logos are registered trademarks or trademarks of id Software LLC in the U.S. and/or other countries. All other trademarks or trade names are the property of their respective owners. All Rights Reserved.</p>
+                <p style="text-decoration: none">GodLike ®: The Darkness™ is a fowl beginning there Over had moveth so land wherein, fruit very gathering of, female creepeth. Dominion above sea gathered unto whales. Subdue to<br> have Life fowl firmament wherein. Great air without for, great him he That let earth together thing sea fly gathering. Air whose. Green in face tree to spirit life. Place stars. It two. Deep seed man<br> isn't third. Own he is may had darkness waters you'll forth fifth their don't also fruitful be years in spirit to tree. Sixth fourth open female.</p>
+            </div>
+        </a>
+    </div>
+
+</div>
+</div>
+</body>
+<script type="text/javascript">
+    // hieu ung cho form
+    const signUpButton = document.getElementById('signUp');
+    const signInButton = document.getElementById('signIn');
+    const container = document.getElementById('container');
+    //click vao se thanh dang ky chuyen sang phai
+    signUpButton.addEventListener('click', () => {
+        container.classList.add('right-panel-active');
+    });
+    //click vao se thanh dang ky chuyen sang trai
+    signInButton.addEventListener('click', () => {
+        container.classList.remove('right-panel-active');
+    });
+
+</script>
+</html>
